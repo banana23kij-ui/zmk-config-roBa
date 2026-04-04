@@ -80,21 +80,21 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L         &kp U         &kp COMMA                    &kp PERIOD                                                      &kp F        &kp W  &lt 5 R  &kp Y  &kp P
-&kp E             &kp I         &kp A         &kp O                        &kp MINUS        &kp LS(LG(S))                   &kp MINUS      &kp K        &kp T  &kp N    &kp S  &kp H
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp RIGHT_ARROW  &kp COLON                       &kp SEMICOLON  &kp G        &kp D  &kp M    &kp J  &kp B
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE      &lt_to_layer_0 5 BACKSPACE      &kp BACKSPACE  &lt 1 ENTER                         &kp DEL
+&kp Q                  &kp L                      &kp U                         &kp COMMA                    &kp PERIOD                                               &kp F         &kp W            &lt 5 R      &kp Y              &kp P
+&kp E                  &mt LEFT_ALT I             &mt LCTRL A                   &mt LEFT_SHIFT O             &kp MINUS        &kp TAB                     &kp SPACE   &kp K         &mt RIGHT_ALT T  &mt RCTRL N  &mt RIGHT_SHIFT S  &kp H
+&mt LEFT_SHIFT Z       &kp X                      &kp C                         &kp V                        &kp RIGHT_ARROW  &mt SLASH COLON             &mt F10 F7  &kp G         &kp D            &kp M        &kp J              &kp B
+&lt_to_layer_0 6 HOME  &lt_to_layer_0 5 QUESTION  &lt_to_layer_0 4 EXCLAMATION  &lt_to_layer_0 2 INT_HENKAN  &lt 1 BACKSPACE  &lt_to_layer_0 0 LCTRL      &kp DELETE  &kp KP_ENTER                                                   &mt EXCLAMATION QUESTION
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
-        FUNCTION {
+        number {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans  &trans  &trans  &trans  &trans                      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &kp F5
+&trans  &trans  &trans  &trans  &trans  &trans      &kp M   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERCENT   &kp F10
+&trans  &trans  &trans  &trans  &trans  &trans      &kp C   &kp NUMBER_7  &kp N8        &kp NUMBER_9  &trans        &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                  &kp F12
             >;
         };
 
