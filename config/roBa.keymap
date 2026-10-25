@@ -80,9 +80,9 @@
 
         default_layer {
             bindings = <
-&kp Q                  &kp L                      &kp U                         &kp COMMA                    &kp PERIOD                                               &kp F         &kp W            &lt 5 R      &kp Y              &kp P
-&kp E                  &mt LEFT_ALT I             &mt LCTRL A                   &mt LEFT_SHIFT O             &kp MINUS        &kp TAB                     &kp SPACE   &kp K         &mt RIGHT_ALT T  &mt RCTRL N  &mt RIGHT_SHIFT S  &kp H
-&mt LEFT_SHIFT Z       &kp X                      &kp C                         &kp V                        &kp RIGHT_ARROW  &mt SLASH COLON             &mt F10 F7  &kp G         &kp D            &kp M        &kp J              &kp B
+&kp Q                  &kp W                      &kp E                         &kp R                        &kp T                                                    &kp Y         &kp U            &lt 5 I      &kp O              &kp P
+&kp A                  &mt LEFT_ALT S             &mt LCTRL D                   &mt LEFT_SHIFT F             &kp G            &kp TAB                     &kp SPACE   &kp H         &mt RIGHT_ALT J  &mt RCTRL K  &mt RIGHT_SHIFT L  &kp H
+&mt LEFT_SHIFT Z       &kp X                      &kp C                         &kp V                        &kp B            &mt SLASH MINUS             &mt F10 N   &kp M         &kp COMMA        &kp PERIOD   &kp SLASH          &kp DEL
 &lt_to_layer_0 6 HOME  &lt_to_layer_0 5 QUESTION  &lt_to_layer_0 4 EXCLAMATION  &lt_to_layer_0 2 INT_HENKAN  &lt 1 BACKSPACE  &lt_to_layer_0 0 LCTRL      &kp DELETE  &kp KP_ENTER                                                   &mt EXCLAMATION QUESTION
             >;
 
